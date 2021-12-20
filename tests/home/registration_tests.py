@@ -16,7 +16,7 @@ class RegistrationTests(unittest.TestCase):
     def test_validRegistration(self):
         self.rp.logoutInitial()
         # self.rp.registrationLink()
-        self.rp.registration("testing212202222@mailinator.com", "Kamil", "Testing", "Testing@123", "Testing", "Test",
+        self.rp.registration("testing7840046437@mailinator.com", "Kamil", "Testing", "Testing@123", "Testing", "Test",
                              "AddressOne", "addressTwo", "TestCity", "New Delhi", "00000", "9876543210")
         result = self.rp.verifyRegistrationSuccessful()
         assert result == True
